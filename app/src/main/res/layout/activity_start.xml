@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="사물 목록 조회 API URL을 입력하세요"/>
+
+    <EditText
+        android:id="@+id/listThingsURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://3mhow91xfl.execute-api.ap-northeast-2.amazonaws.com/prod/devices"/>
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/button"/>
+</LinearLayout>
+
