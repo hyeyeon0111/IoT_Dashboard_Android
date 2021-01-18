@@ -80,18 +80,19 @@
 ### 3. Android 앱 설치 및 실행
 - 설치 방법
 	
-- **Clone or download** 를 클릭 후, Download ZIP을 통해 프로젝트 zip파일을 다운 받아서 압축을 푼 후에, AndroidStudio를 통해 실행 시킵니다.
+	- **Clone or download** 를 클릭 후, Download ZIP을 통해 프로젝트 zip파일을 다운 받아서 압축을 푼 후에, AndroidStudio를 통해 실행 시킵니다.
 	
-- 앱을 실행하기 전에 API URI를 알아 두어야 합니다.
-	- Amazon API Gateway로 부터 만들어진  API 서버 URL을 기록해둡니다. 
+	- 앱을 실행하기 전에 API URI를 알아 두어야 합니다.
+		- Amazon API Gateway로 부터 만들어진  API 서버 URL을 기록해둡니다. 
 		
-			https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod 
+				https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod 
 
-- 초기 실행 화면에 다음과 같은 URI를 입력합니다.
+	- 초기 실행 화면에 다음과 같은 URI를 입력합니다.
 		
-		https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices
-	
-- 실행 화면
+			https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices
+
+-  실행 화면
+
 	- 디바이스 목록 조회
 	<p align="center">
 		<img src = "https://user-images.githubusercontent.com/56067179/104869307-0f7a5880-5989-11eb-9bcd-c6c8fcac4147.png" width="60%" >
